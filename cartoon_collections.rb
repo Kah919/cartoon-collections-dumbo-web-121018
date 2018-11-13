@@ -18,7 +18,7 @@ def find_the_cheese(cheese)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each do |cheez|
     cheese.find do |ele|
-      ele == cheez
+      cheez == ele
     end
   end
 end
